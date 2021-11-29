@@ -126,11 +126,15 @@
               <resource> 
                 <directory>${project.basedir}/target</directory>  
                 <includes> 
-                  <include></include> 
+                  <include/> 
                 </includes> 
               </resource> 
             </resources> 
-          </deployment> 
+          </deployment>  
+          <resourceGroup>RGSCSKNISHI5BU2KASAMPLE</resourceGroup>
+          <appName>Tranning</appName>
+          <pricingTier>P1v2</pricingTier>
+          <region>japanwest</region>
         </configuration> 
       </plugin> 
     </plugins> 
