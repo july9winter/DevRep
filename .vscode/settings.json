@@ -1,3 +1,6 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "appService.preDeployTask": "package:Tranning",
+    "appService.deploySubpath": "target\\Tranning.war",
+    "appService.defaultWebAppToDeploy": "/subscriptions/73b347b8-fbe0-49e6-82b0-33ba0c7dd573/resourceGroups/RGSCSKNISHI5BU2KASAMPLE/providers/Microsoft.Web/sites/Tranning"
 }
